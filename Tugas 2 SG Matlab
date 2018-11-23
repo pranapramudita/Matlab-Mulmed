@@ -1,0 +1,22 @@
+% tugas 1
+a = [1 2;3 4]
+b = [5 6;7 8]
+
+tambah = a+b;
+kurang = a-b;
+bagi = a/b;
+pangkat = a^2;
+perkalian_antar_matriks = a*b;
+perkalian_antar_elemen = a.*b;
+perkalian_skalar = a*3;
+
+% tugas 2
+a = input('Masukan A : ');
+b = input('Masukan B : ');
+if a > b
+    disp('A lebih besar dari B');
+elseif a < b 
+    disp('B lebih besar dari A');
+else
+    disp('A sama dengan B');
+end
